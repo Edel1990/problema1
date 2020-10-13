@@ -23,8 +23,8 @@
     padding: 0.5rem;
     border-top-width: 0px;
     border-bottom-width: 4px;
-    border-right-width: 0px;
-    border-left-width: 0px;
+    border-right-width: 1px;
+    border-left-width: 1px;
     border-color: #007bc7;
     border-style: solid;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,8 +37,9 @@
     padding: 0.5rem;
     border-top-width: 0px;
     border-bottom-width: 4px;
-    border-right-width: 0px;
-    border-left-width: 0px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-left-color: black;
     border-color: #007bc7;
     border-style: solid;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,6 +55,7 @@
     border-right-width: 0px;
     border-left-width: 0px;
     border-color: #007bc7;
+    border-left-color: black;
     border-style: solid;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(63,63,66)
@@ -362,4 +364,8 @@
 .first_hover :hover{
     background-color: #b80000;
     color: white;
+}
+.letter {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(63,63,66)
 }
