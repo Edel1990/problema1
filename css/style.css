@@ -51,7 +51,21 @@
     align-items: center;
     text-decoration: none;
     margin: auto;
-} 
+}
+.explainers a{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-top-width: 0px;
+    border-bottom-width: 4px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: #b80000;
+    border-style: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63,63,66)
+}
 .first_hover a{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
