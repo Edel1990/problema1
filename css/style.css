@@ -46,6 +46,7 @@
     padding: 16px;
     overflow: hidden;
     background-color: #b80000;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     align-items: center;
     text-decoration: none;
@@ -53,11 +54,14 @@
 } 
 .first_hover a{
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(63,63,66);
     padding: 8px;
     text-align: center;
     border-color: #DB7F7F;
+    border-width: 1px;
     border-style: solid;
+    bottom: 1px;
     padding: 0,5rem;
     align-items: center;
     text-decoration: none;
